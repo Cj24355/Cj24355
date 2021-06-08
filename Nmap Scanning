@@ -1,0 +1,28 @@
+Nmap Switches:
+Syn Scan = -sS
+UDP scan = -sU
+operating system the target = -O
+version of the services running = -sV
+increase the verbosity = -v
+verbosity level two = -vv
+three major formats = -oA
+normal" format = -oN
+grepable" format? = -oG
+"aggressive" mode = -A
+timing template to level = T1 , T2 , T3 , T4
+only scan port = -p
+scan all ports = -p-
+activate a script = --script
+
+THREE BASIC SCAN TYPE
+TCP Connect Scans = -sT
+SYN "Half-open" Scans = -sS
+UDP Scans = -sU
+
+LESS COMMON SCAN TYPE:
+TCP Null Scans = -sN
+TCP FIN Scans  = -sF
+TCP Xmas Scans = -sX
+
+nmap scripts directory = /usr/share/nmap/scripts
+search for dependecies = grep dependencies /usr/share/nmap/scripts/name of script.nse
