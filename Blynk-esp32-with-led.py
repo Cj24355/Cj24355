@@ -12,7 +12,7 @@ from machine import Pin
 # ENter WIfi_SSID and WIFI_PASS
 WIFI_SSID = 'WIFI_SSID'
 WIFI_PASS = 'WIFI_PASS'
-BLYNK_AUTH = 'mYhMgD6xfiO3RLHjFWjWFyxctTximM5c'
+BLYNK_AUTH = 'Enter Your Auth Token'
 # Initialize Blynk
 
 print("Connecting to WiFi network '{}'".format(WIFI_SSID))
